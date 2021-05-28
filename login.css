@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0, 0.4)), url('IMAGES/5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.form-box{
+    width: 450px;
+    height: 1480px;
+    position:relative;
+    background-color: hsla(0, 0%, 96%, 0.918);
+    height: 82vh;;
+    margin: 6% auto;
+    padding: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.button-box{
+    width: 210px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px rgb(3, 19, 240);
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    cursor: pointer;
+    background: transparent;
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    position: relative;
+    border-radius: 30px;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 30px;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #969dda, #004e92);
+    transform: 0.5s;
+}
+
+.social-icons{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50%;
+}
+.social-icons img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+h3{
+    position: relative;
+    align-content: center;
+    text-align: center;
+    color: rgb(219, 17, 17);
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 380px;
+  transition:0.5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 25px 20px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.check-box{
+    padding: 10px 0;
+    margin: 15px 20px;
+}
+
+.submit-btn{
+    width: 50%;
+    padding: 8px 50px;
+    background-position: center;
+    cursor: pointer;
+    display: block;
+    margin-left: 90px;
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777 ;
+    font-size: 12px;
+    bottom: 62px;
+    position: absolute;
+}
+#log-in{
+    left: 50px;
+}
+
+#register{
+    left: 450px ;
+}

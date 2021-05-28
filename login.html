@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://myaccount.google.com/?tab=kk" target="_parent"><img src="../HTML/icons/g.png"></a>
+                <a href="https://touch.facebook.com/?_rdr" target="_parent"><img src="../HTML/icons/sm-icons-facebook-logo.png"></a> 
+                <a href="https://twitter.com/login?lang=en-gb" target="_parent"><img src="../HTML/icons/t.png"></a>
+                <a href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin" target="_parent"><img src="../HTML/icons/social-linkedin-circle-512.png"></a>
+                <a href="https://www.instagram.com/accounts/login/" target="_parent"><img src="../HTML/icons/download (1).jpg"></a>
+            </div> <h3>OR</h3>
+            <form id="log-in" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter your User ID" required>
+            <input type="password" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Login</button>
+            </form>
+                <form id="register"  class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your Name" required>
+                
+                <input type="email" class="input-field" placeholder="Enter your email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree, to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+                </form>
+        </div> 
+    </div>
+    <script>
+   var x = document.getElementById("log-in");
+   var y = document.getElementById("register");
+   var z = document.getElementById("btn");
+   
+   function register()
+    {
+        x.style.left="-400px";
+        y.style.left="50px";
+        z.style.left="110px";
+    }
+   
+   function login()
+   {
+        x.style.left="50px";
+        y.style.left="450px";
+        z.style.left="0px";
+}   
+   
+    
+    
+    </script>
+</body>
+</html>  
